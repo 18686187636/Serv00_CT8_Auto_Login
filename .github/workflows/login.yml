@@ -3,7 +3,7 @@ name: Serv00 自动登录
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 */3 * *"  # 每三天运行一次
+    - cron: "0 0 1 * *"   # 每月1号运行
   push:
     branches:
       - main
