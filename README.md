@@ -26,10 +26,11 @@
         - `ACCOUNTS_JSON`: 包含账号信息的 JSON 数据。例如：
         - 
           ```json
-          [
+           [
             {"username": "serv00的账号", "password": "serv00的密码", "panel": "panel11.serv00.com"},
+            {"username": "ct8的账号", "password": "ct8的密码", "panel": "panel.ct8.pl"},
             {"username": "ct8的账号", "password": "ct8的密码", "panel": "panel.ct8.pl"}
-          ]
+           ]
           ```
         - `TELEGRAM_BOT_TOKEN`: 你的 Telegram Bot 的 API Token。
         - `TELEGRAM_CHAT_ID`: 你的 Telegram Chat ID。
@@ -63,6 +64,7 @@
       ```json
       [
             {"username": "serv00的账号", "password": "serv00的密码", "panel": "panel11.serv00.com"},
+            {"username": "ct8的账号", "password": "ct8的密码", "panel": "panel.ct8.pl"},
             {"username": "ct8的账号", "password": "ct8的密码", "panel": "panel.ct8.pl"}
       ]
       ```
