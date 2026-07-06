@@ -253,7 +253,7 @@ class Serv00LoginBot:
                                 self.take_screenshot(f"error_{name}")
                                 return False, f"登录失败: {el.text[:50]}"
                     # 没有可见错误但仍在登录页，视为失败
-                    logger.warning(f"⚠️ {name} 仍在登录页，登录未成功")
+                    logger.warning(f"⚠️ {name} 登录失败")
                     self.take_screenshot(f"still_on_login_{name}")
                     return False, "登录后仍停留在登录页"
 
