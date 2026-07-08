@@ -331,7 +331,7 @@ class Serv00LoginBot:
                 )
             success_rate = (success_count / len(results)) * 100
             message_lines.append(
-                f"📊 统计信息:\n✅ 成功: {success_count}/{len(results)}\n📈 成功率: {success_rate:.1f}%\n🏁 所有账号操作已完成"
+                f"📊 统计信息:\n✅ 成功: {success_count}/{len(results)}\n📈 成功率: {success_rate:.1f}%\n🏁 所有账号操作已完成\n CT8:https://panel.ct8.pl"
             )
             send_telegram_message("\n".join(message_lines))
 
